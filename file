@@ -1,0 +1,2 @@
+def log(message, destination):
+    destination.write('[{}] - {}'.format(datetime.now(), message))
